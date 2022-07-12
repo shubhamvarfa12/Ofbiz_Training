@@ -18,7 +18,17 @@ specific language governing permissions and limitations
 under the License.
 -->
 
-<entity-engine-xml>
-    <OfbizDemoType ofbizDemoTypeId="INTERNAL" description="Internal Demo - Office"/>
-    <OfbizDemoType ofbizDemoTypeId="EXTERNAL" description="External Demo - On Site"/>
-</entity-engine-xml>
+<services xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://ofbiz.apache.org/dtds/services.xsd">
+    <description>OfbizDemo Services</description>
+    <vendor></vendor>
+    <version>1.0</version>
+
+    <service name="createOfbizDemo" default-entity-name="OfbizDemo" engine="entity-auto" invoke="create" auth="true">
+        <description>Create an Ofbiz Demo record</description>
+        <auto-attributes include="pk" mode="OUT" optional="false"/>
+        <auto-attributes include="nonpk" mode="IN" optional="false"/>
+        <override name="comments" optional="true"/>
+    </service> 
+    
+</services>
