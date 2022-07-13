@@ -1,0 +1,35 @@
+[33mcommit 8f8431e568231791dd2553cbddb0410be257bcf5[m[33m ([m[1;36mHEAD -> [m[1;32mofbiz_Assignment[m[33m)[m
+Author: shubhamvarfa12 <shubhamvarfa125@gmail.com>
+Date:   Wed Jul 13 18:28:17 2022 +0530
+
+     Add new UI Labels using Freemarker and Groovy
+
+[33mcommit ddd5597800c339e53238857003b3b2999022bd82[m[33m ([m[1;31morigin/ofbiz_Assignment[m[33m)[m
+Author: shubhamvarfa12 <shubhamvarfa125@gmail.com>
+Date:   Wed Jul 13 16:33:11 2022 +0530
+
+    created ADD form as well as FIND form
+
+[33mcommit 3b756982498658d138c4ec383bffcdc9164e2f40[m
+Author: shubhamvarfa12 <shubhamvarfa125@gmail.com>
+Date:   Tue Jul 12 18:49:40 2022 +0530
+
+    Create a Service to create records in the Database
+
+[33mcommit 1c7ccd0c12e4d10b5f7fd96bd5e7f0936ec0d49a[m
+Author: shubhamvarfa12 <shubhamvarfa125@gmail.com>
+Date:   Tue Jul 12 17:32:54 2022 +0530
+
+     Data prepare for an entity in data XML files
+
+[33mcommit a5a80897150c9c767788258f78b1a658b532293f[m
+Author: shubhamvarfa12 <shubhamvarfa125@gmail.com>
+Date:   Tue Jul 12 17:25:03 2022 +0530
+
+    Created First custom Database Entity (Table) in the database
+
+[33mcommit b86bfef2d2dc73ae823e219d06683044a18708e4[m
+Author: shubhamvarfa12 <shubhamvarfa125@gmail.com>
+Date:   Tue Jul 12 17:13:41 2022 +0530
+
+    Running First component
